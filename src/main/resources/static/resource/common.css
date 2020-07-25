@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {list-style: none;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.after::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+ /* -------------------------------------- */
+.tab{
+	width: 1240px;
+	margin: 0 auto;
+	height: 50px;
+}
+.tab>span{
+	margin : 0 10px;
+	line-height: 50px;
+	float: right;
+}
+.tab>a{
+	line-height: 50px;
+}
+.tab>a:nth-child(1){
+	margin : 0 10px;
+	float: right;
+}
+.tab>a:nth-child(2){
+	margin : 0 10px;
+	float: right;
+}
+.tab>a:nth-child(3){
+	margin : 0 10px;
+	float: right;
+}
+ /* -------------------------------------- */
+#headerWrap{
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+}
+.header{
+	width: 1240px;
+	margin: 0 auto;
+}
+.header>.logo{
+	display : block;
+	width: 20%;
+	float: left;
+	height : 100px;
+	background: url("./img/logo.png") no-repeat center;
+	background-size: contain;
+}
+.header>.bgn{
+	width: 80%;
+	float:left;
+}
+.header>.bgn>ul>li{
+	width: 25%;
+	float: left;
+}
+.header>.bgn>ul>li>a{
+	display: block;
+	height: 95px;
+	line-height: 95px;
+	text-align : center;
+}
+.header>.bgn>ul>li>div{
+	width: 0%;
+	margin: 0 auto;
+	height: 5px;
+	background: #555;
+}
+.header>.bgn>ul>li>a:hover {
+	font-weight: bold;
+}
+.header>.bgn>ul>li:hover div{
+	width: 50%;
+	transition: all 0.5s;
+}
+.header>.bgn>ul>li{
+	position: relative;
+}
+.header>.bgn>ul>li>ul{
+	display: none;
+}
+.header>.bgn>ul>li>ul{
+	position : absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 10px;
+	z-index: 10;
+}
+.header>.bgn>ul>li>ul>li>a{	
+	display: block;
+	padding: 10px 0;
+}
+.header>.bgn>ul>li>ul>li>a:hover{
+	font-weight: bold;
+}
+
+ /* -------------------------------------- */
+.footerWrap{
+	margin-top : 100px;
+	background: #777;
+	padding: 30px 0;
+}
+.footerWrap>#footer{
+	width: 1240px;
+	margin: 0 auto;
+}
+#footer>.logo2{
+	width: 20%;
+	float: left;
+	height : 100px;
+	background: url("./img/logo.png") no-repeat center;
+	background-size: contain;
+}
+#footer>ul{
+	margin-left: 60%;
+	width: 20%;
+	height : 100px;
+	float: left;
+}
+#footer>ul>li{
+	margin-left: 20px;
+	float: right;
+}
+#footer>ul>li>a{
+	font-size: 25px;
+	display: block;
+	color: white;
+}
+#footer>.text{
+	margin-top: 20px;
+	float: left;
+	color: white;
+}

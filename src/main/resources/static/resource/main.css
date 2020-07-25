@@ -1,0 +1,139 @@
+
+#visual{
+	height: 500px;
+	background: aqua;
+	margin-bottom: 100px;
+}
+ /* -------------------------------------- */
+#contents{
+	width: 1240px;
+	margin: 0 auto;
+}
+#contents>.con1{
+	position:relative;
+	width: 45%;
+	height: 400px;
+	float: left;	
+	margin-right: 10%;
+	border: solid 2px black;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+ /* -------------------------------------- */
+#contents>.con1>.notice{
+	position: absolute;
+	width : 50%;
+	height: 50px;
+	line-height: 50px;
+	left: 0;
+	top: 0;
+	text-align: center;
+	cursor: pointer;
+}
+#contents>.con1>.notice>a{
+	display:block;
+	color: #ddd;
+	background: gray;
+}
+#contents>.con1> .on:nth-of-type(1)>a{
+	color: gray;
+	background: white;
+}
+#contents>.con1>.noticeBody{
+	display : none;
+	width : 100%;
+	position: absolute;
+	left : 0;
+	top: 15%;
+}
+#contents>.con1> .on:nth-of-type(2){
+	display: block;
+}
+#contents>.con1>.noticeBody>ul{
+	width: 90%;
+	margin: 0 auto;
+}
+#contents>.con1>.noticeBody>ul>span{
+	display: block;
+	width: 20%;
+	height : 20px;
+	margin : 10px 0;
+	overflow: hidden;
+	float: left;
+}
+#contents>.con1>.noticeBody>ul>li{
+	width: 70%;
+	height : 20px;
+	float: left;
+	margin : 10px 20px 10px 0;
+	overflow: hidden;
+	font-size : 15px;
+	border-bottom: 1px solid lightseagreen;
+}
+ /* -------------------------------------- */
+#contents>.con1>.free{
+	position: absolute;
+	width : 50%;
+	height: 50px;
+	line-height: 50px;
+	left: 50%;
+	top: 0;
+	text-align: center;
+	cursor: pointer;
+}
+#contents>.con1>.free>a{
+	display:block;
+	color: #ddd;
+	background: gray;
+}
+#contents>.con1> .on:nth-of-type(3)>a{
+	color: gray;
+	background: white;
+}
+
+#contents>.con1>.freeBody{
+	display:none;
+	width:100%;
+	position: absolute;
+	left : 0;
+	top: 15%;
+}
+#contents>.con1> .on:nth-of-type(4){
+	display: block;
+}
+#contents>.con1>.freeBody>ul{
+	display:block;
+	width: 90%;
+	margin: 0 auto;
+
+}
+#contents>.con1>.freeBody>ul>span{
+	display: block;
+	width: 20%;
+	height : 20px;
+	margin : 10px 0;
+	overflow: hidden;
+	float: left;
+}
+#contents>.con1>.freeBody>ul>li{
+	width: 70%;
+	height : 20px;
+	float: left;
+	margin : 10px 20px 10px 0;
+	overflow: hidden;
+	font-size : 15px;
+	border-bottom: 1px solid lightseagreen;
+}
+
+ /* -------------------------------------- */
+#contents>.con2{
+	width: 45%;
+	height: 400px;
+	float: left;	
+	box-sizing: border-box;
+}
+
+
+ /* -------------------------------------- */
+
+ 

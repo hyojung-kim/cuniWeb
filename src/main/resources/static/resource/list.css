@@ -1,0 +1,62 @@
+.con {
+	width: 1200px;
+
+}
+.table-box>table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-box>table td, .table-box>table th {
+	padding: 10px;
+	border: 1px solid black;
+}
+.table-box>table input[type="text"], .table-box>table input[type="number"],
+	.table-box>table input[type="tel"], .table-box>table textarea, input[type="password"] {
+	width:90%;
+}
+.height-100px {
+	height: 100px;
+}
+
+.height-200px {
+	height: 200px;
+}
+.margin-top-100 {
+	margin-top:100px;
+}
+
+.margin-top-30 {
+	margin-top:30px;
+}
+
+.text-align-center {
+	text-align:center;
+}
+.con {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.template-box {
+	display:none;
+}
+
+.buttonStyle{
+	padding : 5px;
+	display:block;
+	float : right;
+	font-weight:bold;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.buttonStyle2{
+	padding : 5px;
+	
+	font-weight:bold;
+	cursor: pointer;
+}
+.pageFont{
+	font-weight:bold;
+	margin-bottom: 20px;
+}
